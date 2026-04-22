@@ -1,0 +1,63 @@
+2026-04-22 12:11:43,447 - INFO - Job started
+2026-04-22 12:11:43,448 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-22 12:11:43,460 - ERROR - Error: Missing 'close' column
+2026-04-22 12:16:55,274 - INFO - Job started
+2026-04-22 12:16:55,275 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-22 12:16:55,284 - ERROR - Error: Missing 'close' column
+2026-04-22 12:17:13,506 - INFO - Job started
+2026-04-22 12:17:13,506 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-22 12:17:13,517 - ERROR - Error: Missing 'close' column
+2026-04-22 12:24:39,594 - INFO - Job started
+2026-04-22 12:24:39,594 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-22 12:24:39,605 - ERROR - Error: Missing 'close' column
+2026-04-22 12:26:15,634 - INFO - Job started
+2026-04-22 12:26:15,634 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-22 12:26:15,645 - ERROR - Error: Missing 'close' column
+2026-04-22 12:27:59,552 - INFO - Job started
+2026-04-22 12:27:59,552 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-22 12:27:59,562 - ERROR - Error: Missing 'close' column
+2026-04-22 12:28:21,681 - INFO - Job started
+2026-04-22 12:28:21,681 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-22 12:28:21,691 - ERROR - Error: Missing 'close' column
+2026-04-22 12:29:26,844 - INFO - Job started
+2026-04-22 12:29:26,844 - INFO - Input file: data.csv
+2026-04-22 12:29:26,844 - INFO - Config file: config.yaml
+2026-04-22 12:29:26,844 - INFO - Output file: metrics.json
+2026-04-22 12:29:26,844 - INFO - Log file: run.log
+2026-04-22 12:29:26,845 - INFO - Config loaded successfully
+2026-04-22 12:29:26,845 - INFO - Seed set to: 42
+2026-04-22 12:29:26,845 - INFO - Rolling window: 5
+2026-04-22 12:29:26,845 - INFO - Version: v1
+2026-04-22 12:29:26,859 - ERROR - Error occurred: Missing 'close' column. Found: ['timestamp, open, high, low,close,volume_btc,volume_usd']
+2026-04-22 12:30:49,044 - INFO - Job started
+2026-04-22 12:30:49,045 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-22 12:30:49,055 - ERROR - Error: Missing 'close' column
+2026-04-22 12:33:57,370 - INFO - Job started
+2026-04-22 12:33:57,371 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-22 12:33:57,382 - ERROR - Error: Missing 'close' column
+2026-04-22 12:36:09,086 - INFO - Job started
+2026-04-22 12:36:09,087 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-22 12:36:09,097 - ERROR - Error: Missing 'close' column
+2026-04-22 13:02:57,317 - INFO - Job started
+2026-04-22 13:02:57,318 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-22 13:02:57,331 - INFO - Rows loaded: 10000
+2026-04-22 13:02:57,347 - INFO - Job completed successfully
+2026-04-22 13:03:59,261 - INFO - Job started
+2026-04-22 13:03:59,262 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-22 13:03:59,262 - ERROR - Error: Input CSV not found
+2026-04-22 13:05:44,213 - INFO - Job started
+2026-04-22 13:05:44,214 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-22 13:05:44,228 - INFO - Columns found: ['timestamp', 'open', 'high', 'low', 'close', 'volume_btc', 'volume_usd']
+2026-04-22 13:05:44,228 - INFO - Rows loaded: 10000
+2026-04-22 13:05:44,228 - INFO - Computing rolling mean
+2026-04-22 13:05:44,230 - INFO - Generating signals
+2026-04-22 13:05:44,232 - INFO - Metrics: {'version': 'v1', 'rows_processed': 9996, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 19, 'seed': 42, 'status': 'success'}
+2026-04-22 13:05:44,234 - INFO - Job completed successfully
+2026-04-22 13:08:11,652 - INFO - Job started
+2026-04-22 13:08:11,653 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-22 13:08:11,667 - INFO - Columns found: ['timestamp', 'open', 'high', 'low', 'close', 'volume_btc', 'volume_usd']
+2026-04-22 13:08:11,667 - INFO - Rows loaded: 10000
+2026-04-22 13:08:11,667 - INFO - Computing rolling mean
+2026-04-22 13:08:11,668 - INFO - Generating signals
+2026-04-22 13:08:11,670 - INFO - Metrics: {'version': 'v1', 'rows_processed': 9996, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 17, 'seed': 42, 'status': 'success'}
+2026-04-22 13:08:11,670 - INFO - Job completed successfully

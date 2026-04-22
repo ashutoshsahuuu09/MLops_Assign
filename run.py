@@ -135,7 +135,6 @@ def main():
             "error_message": str(e),
         }
 
-        # ✅ Always attempt to write metrics
         try:
             write_metrics(args.output, error_metrics)
         except Exception as write_err:
